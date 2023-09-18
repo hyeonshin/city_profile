@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profil Kota Semarang</title>
+    <link rel="icon" type="image/x-icon" href="src/img/favicon.ico">
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -20,9 +21,14 @@
       <nav>
         <ul class="nav-links">
           <li><a href="#">Home</a></li>
-          <li><a href="#sejarah">Sejarah</a></li>
-          <li><a href="#geografi">Geografi</a></li>
-          <li><a href="#wisata">Wisata</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Content</a>
+            <div class="dropdown-content">
+              <a href="#sejarah">Sejarah</a>
+              <a href="#geografi">Geografi</a>
+              <a href="#wisata">Wisata</a>
+            </div>
+          </li>
         </ul>
       </nav>
     </header>
@@ -131,7 +137,11 @@
             menjadi salah satu keunikan kota Semarang.
           </p>
           <figure>
-            <img src="src/img/lawang_sewu.jpg" alt="Lawang Sewu" class="featured-image"/>
+            <img
+              src="src/img/lawang_sewu.jpg"
+              alt="Lawang Sewu"
+              class="featured-image"
+            />
             <figcaption>Foto Lawang Sewu</figcaption>
           </figure>
           <p>
@@ -144,12 +154,20 @@
             api di Indonesia.
           </p>
           <figure>
-            <img src="src/img/majt.jpg" alt="Masjid Agung Jawa Tengah" class="featured-image"/>
+            <img
+              src="src/img/majt.jpg"
+              alt="Masjid Agung Jawa Tengah"
+              class="featured-image"
+            />
             <figcaption>Foto Masjid Agung Jawa Tengah</figcaption>
           </figure>
 
           <figure>
-            <img src="src/img/kotlam.jpg" alt="Gereja Blenduk" class="featured-image"/>
+            <img
+              src="src/img/kotlam.jpg"
+              alt="Gereja Blenduk"
+              class="featured-image"
+            />
             <figcaption>Foto Gereja Blenduk</figcaption>
           </figure>
 
@@ -209,6 +227,22 @@
               </tr>
             </table>
           </section>
+        </article>
+        <article class="profile card">
+          <header>
+            <h2>Semarang ATLAS</h2>
+            <p>
+              <strong>A</strong>man <strong>T</strong>ertib
+              <strong>L</strong>ancar <strong>A</strong>sri dan
+              <strong>S</strong>ehat
+            </p>
+            <figure>
+              <img src="src/img/map.png" />
+              <figcaption>Peta Kota Semarang</figcaption>
+            </figure>
+          </header>
+
+          
         </article>
       </aside>
 
